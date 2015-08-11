@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="373px" height="237px" viewBox="0 0 373 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>square-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DDDDDD" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#8B572A" offset="0%"></stop>
+            <stop stop-color="#DE8D44" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="198.448867%" id="linearGradient-3">
+            <stop stop-color="#8B572A" offset="0%"></stop>
+            <stop stop-color="#DE8D44" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="166.453474%" id="radialGradient-4">
+            <stop stop-color="#8B572A" offset="0%"></stop>
+            <stop stop-color="#DE8D44" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="28.4418846%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#8B572A" offset="0%"></stop>
+            <stop stop-color="#D78841" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-559.000000, -637.000000)">
+            <g id="dreambutter-jar" sketch:type="MSLayerGroup" transform="translate(519.000000, 238.000000)">
+                <g id="square-logo" transform="translate(40.000000, 337.000000)">
+                    <g id="cloud" transform="translate(0.000000, 62.555556)" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-26" x="77.112529" y="168.888889" width="235.873618" height="67.5555556"></rect>
+                        <ellipse id="Oval-1" cx="76.6589258" cy="161.333333" rx="76.6589258" ry="75.1111111"></ellipse>
+                        <ellipse id="Oval-1-Copy" cx="168.740357" cy="118.222222" rx="120.658428" ry="118.222222"></ellipse>
+                        <ellipse id="Oval-1-Copy-2" cx="312.986147" cy="177.777778" rx="59.8756107" ry="58.6666667"></ellipse>
+                        <ellipse id="Oval-1-Copy-3" cx="265.35782" cy="133.777778" rx="70.3084823" ry="68.8888889"></ellipse>
+                    </g>
+                    <g id="monkey" transform="translate(55.339580, 62.555556)" sketch:type="MSShapeGroup">
+                        <ellipse id="Oval-5-Copy-5" fill="#8B572A" cx="112.493572" cy="19.5555556" rx="19.9585369" ry="19.5555556"></ellipse>
+                        <path d="M200.939556,98.4629624 C200.939556,98.4629624 225.939857,102.255354 227.666634,187.097149 C229.39341,271.938944 269.864729,190.30828 253.838922,181.076026 C237.813115,171.843772 235.186899,187.171264 241.832671,195.318641" id="Path-4" stroke="url(#linearGradient-2)" stroke-width="9" transform="translate(229.262350, 161.879775) rotate(-13.000000) translate(-229.262350, -161.879775) "></path>
+                        <ellipse id="Oval-5-Copy-4" fill="#8B572A" cx="19.9585369" cy="111.111111" rx="19.9585369" ry="19.5555556"></ellipse>
+                        <path d="M98.9403168,138.61349 C108.930171,151.059385 170.387926,160.444444 177.358817,160.444444 C194.519305,160.444444 208.43063,146.814002 208.43063,130 C208.43063,113.185998 194.519305,99.5555556 177.358817,99.5555556 C160.198328,99.5555556 121.76217,69.0564471 121.76217,85.8704495 C121.76217,95.8543103 84.3377912,120.420882 98.9403168,138.61349 Z" id="Oval-5-Copy-11" fill="url(#linearGradient-3)"></path>
+                        <ellipse id="Oval-5-Copy-7" fill="#DF8D44" cx="112.599527" cy="19.8799304" rx="10.8864747" ry="10.6666667"></ellipse>
+                        <ellipse id="Oval-5" fill="url(#radialGradient-4)" cx="82.5557663" cy="84.4444444" rx="57.153992" ry="56"></ellipse>
+                        <path d="M171.0724,192.801985 C181.062254,205.24788 170.387926,164.693927 177.358817,164.693927 C194.519305,164.693927 208.43063,151.063485 208.43063,134.249483 C208.43063,117.435481 194.519305,103.805039 177.358817,103.805039 C160.198328,103.805039 151.785043,130.698629 151.785043,147.512631 C151.785043,157.496492 156.469874,174.609378 171.0724,192.801985 Z" id="Oval-5-Copy-13" fill="url(#linearGradient-5)"></path>
+                        <path d="M86.9504636,164.693927 C104.110952,164.693927 148.331805,154.263164 148.331805,137.449161 C148.331805,120.635159 150.896158,118.765617 133.73567,118.765617 C125.102355,118.765617 117.157239,141.73705 98.6026115,147.447136 C80.2760988,153.087021 59.4235737,139.092132 59.4235737,147.447135 C59.4235737,157.430996 79.9795733,164.693927 86.9504636,164.693927 Z" id="Oval-5-Copy-12" fill="url(#linearGradient-5)"></path>
+                        <path d="M59.9865615,107.631479 C59.9865615,107.631479 50.1177234,82.5400538 76.3140425,90.7660244" id="Path-1-Copy-2" stroke="#8B572A" stroke-width="6"></path>
+                        <ellipse id="Oval-5-Copy" fill="#DF8D44" cx="71.6692916" cy="97.7777778" rx="25.4017742" ry="24.8888889"></ellipse>
+                        <ellipse id="Oval-5-Copy-6" fill="#DF8D44" cx="18.1441245" cy="112" rx="10.8864747" ry="10.6666667"></ellipse>
+                        <ellipse id="Oval-5-Copy-2" fill="#DF8D44" cx="94.3494472" cy="80" rx="25.4017742" ry="24.8888889"></ellipse>
+                        <ellipse id="Oval-5-Copy-3" fill="#DF8D44" cx="94.3494472" cy="104.888889" rx="25.4017742" ry="24.8888889"></ellipse>
+                        <path d="M61.1660633,107.809426 C61.1660633,107.809426 49.1789128,81.5140283 75.3752319,90.9887568" id="Path-1" stroke="#8B572A" stroke-width="4"></path>
+                        <path d="M88.7303959,85.9503906 C88.7303959,85.9503906 78.2411163,61.9871584 104.437435,71.4618868" id="Path-1-Copy" stroke="#8B572A" stroke-width="4"></path>
+                        <path d="M93.2619545,122.926667 C95.3801145,128.40136 98.3564245,127.019535 100.972134,122.586216 C103.587844,118.152897 104.852438,112.346892 102.734278,106.872199 C100.616118,101.397507 100.613826,110.466114 97.9981161,114.899433 C95.3824062,119.332752 91.1437944,117.451974 93.2619545,122.926667 L93.2619545,122.926667 Z" id="Oval-5-Copy-8" fill="#8B572A"></path>
+                        <path d="M86.3868808,106.074898 C85.2895621,104.877101 86.5359049,103.615263 84.8461824,104.393122 C83.1564599,105.17098 82.2300489,106.285538 83.3273675,107.483335 C84.4246861,108.681132 86.4422024,108.757589 88.1319249,107.979731 C89.8216474,107.201872 87.4841994,107.272695 86.3868808,106.074898 L86.3868808,106.074898 Z" id="Oval-5-Copy-9" fill="#8B572A"></path>
+                        <path d="M92.5053536,102.480909 C91.408035,101.283112 92.6543778,100.021275 90.9646553,100.799133 C89.2749328,101.576992 88.3485217,102.691549 89.4458404,103.889346 C90.543159,105.087143 92.5606753,105.1636 94.2503978,104.385742 C95.9401203,103.607883 93.6026722,103.678706 92.5053536,102.480909 L92.5053536,102.480909 Z" id="Oval-5-Copy-10" fill="#8B572A"></path>
+                    </g>
+                    <g id="z-+-z-copy-+-z-copy-2" transform="translate(187.430879, 0.102296)" font-weight="bold" font-family="Hannotate SC" fill="#A670D6" sketch:type="MSTextLayer">
+                        <text id="z" transform="translate(25.443237, 114.617479) rotate(4.000000) translate(-25.443237, -114.617479) " font-size="80.4286342">
+                            <tspan x="4.44323734" y="143.617479">z</tspan>
+                        </text>
+                        <text id="z-copy" transform="translate(80.746786, 98.490338) rotate(4.000000) translate(-80.746786, -98.490338) " font-size="98.1501976">
+                            <tspan x="55.2467858" y="133.990338">z</tspan>
+                        </text>
+                        <text id="z-copy-2" transform="translate(143.715190, 82.544796) rotate(4.000000) translate(-143.715190, -82.544796) " font-size="115.190162">
+                            <tspan x="114.21519" y="124.044796">z</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
