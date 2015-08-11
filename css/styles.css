@@ -577,8 +577,20 @@ Navigation
 /* ==========================================================================
 Hero
 ========================================================================== */
+
+
 .logo {
     height: 1.5em;
+}
+
+#hero-buy {
+    display: inline-block;
+    width:100%;
+}
+
+.big-logo {
+    height: 8em;
+    float: right;
 }
 
 .hero {
@@ -784,18 +796,16 @@ Showcase
 }
 
 .showcase {
-    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background: url('../img/almonds.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
 .showcase h1 {
     margin: 0 0 20px 0;
-    color: #fff;
     font-weight: 400;
     font-size: 22px;
 }
 .showcase p {
     margin-bottom: 25px;
-    color: #fff;
 }
 .device {
     position: absolute;
