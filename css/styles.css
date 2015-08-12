@@ -625,7 +625,7 @@ header i {
 /* ==========================================================================
 Video
 ========================================================================== */
-section.video i {
+section.instructions i {
     margin-right: 10px;
     color: #323a45;
     vertical-align: middle;
@@ -633,22 +633,22 @@ section.video i {
     -webkit-transition: color 300ms ease-in-out;
     transition: color 300ms ease-in-out;
 }
-section.video h1 {
+section.instructions h1 {
     font-weight: 400;
     font-size: 20px;
 }
-section.video {
+section.instructions {
     padding: 60px 0;
     background-color: #f6f7f9;
 }
-section.video a {
+section.instructions a {
     color: #323a45
 }
-section.video a:hover, section.video a:focus {
+section.instructions a:hover, section.instructions a:focus {
     color: #73d0da;
     text-decoration: none;
 }
-section.video a:hover i, section.video a:focus i {
+section.instructions a:hover i, section.instructions a:focus i {
     color: #73d0da
 }
 
