@@ -1,3 +1,65 @@
+/* LEAN OVERLAY */
+#lean_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+}
+
+.emailModal {
+  display: none; 
+  opacity: 1;
+  z-index: 11000;
+  left: 50%;
+  top: 0px;
+}
+
+.emailModalHeader {
+  background-color: #A8AFB8;
+  padding: 18px 18px 14px 18px;
+  border-bottom: 1px solid #CCC;
+  text-align: center;
+  top:0px;
+}
+
+.signUpForm{
+  background-color: #D2D2D2;
+  color: black;
+  padding: 1em;
+}
+
+.signUpForm .asterisk {
+  color: red;
+}
+
+label {
+  font-weight: 100;
+}
+
+#mc_embed_signup_scroll {
+  text-align: center;
+}
+
+#mc_embed_signup_scroll input {
+}
+
+#mc-embedded-subscribe {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 20px 50px;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #8B572A;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -60,7 +122,7 @@ html {
 */
 html, button, input, select, textarea {
     font-family: sans-serif;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 html, body {
     overflow-x: hidden;
@@ -72,7 +134,7 @@ html, body {
 */
 body {
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /*
@@ -455,31 +517,32 @@ a:hover, a:focus {
     color: #73d0da;
     text-decoration: none;
 }
-.texture-overlay {
+/*.texture-overlay {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
     background-image: url(../img/grid.png);
-}
+}*/
 
 /* ==========================================================================
 Buttons
 ========================================================================== */
 .use-btn {
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    padding: 20px 50px;
-    border-radius: 3px;
-    background-color: #fff;
-    color: #4b98a9;
-    font-size: 16px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 20px 50px;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #8B572A;
+  font-size: 2em;
+  font-weight: bold;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #73d0da;
-    color: #fff;
-    text-decoration: none;
+  background-color: #8B572A;
+  color: #fff;
+  text-decoration: none;
 }
 .learn-btn, .download-btn {
     display: inline-block;
@@ -577,49 +640,51 @@ Navigation
 /* ==========================================================================
 Hero
 ========================================================================== */
-
-
-.logo {
-    height: 1.5em;
-}
-
-#hero-buy {
-    display: inline-block;
-    width:100%;
+.buyNow {
+  width: 100%;
+  text-align: center;
 }
 
 .big-logo {
-    height: 8em;
-    float: right;
+  height: 8em;
+  float: right;
 }
 
 .hero {
-    position: relative;
-    padding: 60px 0 60px 0;
-    min-height: 600px;
-    background: rgb(40, 70, 102) url('../img/northern-lights.jpg') no-repeat center center;
-    background-size: cover;
-    color: #fff;
+  position: relative;
+  padding: 60px 0 60px 0;
+  min-height: 600px;
+  background: rgb(40, 70, 102) url('../img/almonds.jpeg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
 }
 .hero h1 {
-    margin: 100px 0 45px 0;
-    font-weight: 300;
-    font-size: 45px;
+  font-weight: 900;
+  font-size: 5em;
+  text-align: center;
+  color: #9834F0;
+  margin:0;
 }
-.hero h1 span {
-    display: inline-block;
-    color: #a1a9b0;
+
+.hero span {
+  color: white;
 }
-#home {
-    width: 100%;
-    height: 100%;
+
+.hero .title {
+  font-size: 7em;
 }
+
+.title span{
+  color:#FFF251;
+}
+
 .hero {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 header i {
-    margin-left: 5px
+  margin-left: 5px
 }
 
 /* ==========================================================================
@@ -727,7 +792,7 @@ Features Slider
 Features List
 ========================================================================== */
 .features-list {
-    padding: 130px 0
+    padding-top: 130px;
 }
 .features-list h1 {
     margin: 0 0 10px 0;
@@ -758,6 +823,15 @@ Features List
 }
 .feature-icon i {
     color: #4e9ba3
+}
+
+.buyNow {
+  margin-top: 1em;
+}
+
+#buyNow2 {
+  border: 1px solid #8B572A;
+  border-radius: 3px;
 }
 
 /* ==========================================================================
@@ -963,27 +1037,31 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 100px 0
+  padding: 100px 0
 }
 footer p {
-    color: #c7cacc;
-    font-size: 12px;
+  color: #3C3E42;
+  font-size: 12px;
 }
 footer ul {
-    margin-top: 30px
+  margin-top: 30px
 }
 footer li {
-    float: left;
-    margin-right: 15%;
-    list-style: none;
-    text-transform: uppercase;
-    font-weight: 400;
+  float: left;
+  margin-right: 15%;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 footer li a {
-    color: #3f6184
+  color: #3f6184
 }
 footer li:last-child {
-    margin-right: 0
+  margin-right: 0
+}
+
+footer div {
+  text-align: center;
 }
 
 /* ==========================================================================
