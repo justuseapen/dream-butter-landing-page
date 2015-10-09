@@ -1053,8 +1053,9 @@ footer li {
   text-transform: uppercase;
   font-weight: 400;
 }
-footer li a {
-  color: #3f6184
+footer a {
+  color: #391F0D;
+  font-weight: bold;
 }
 footer li:last-child {
   margin-right: 0
