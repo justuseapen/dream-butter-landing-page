@@ -662,7 +662,7 @@ Hero
   position: relative;
   padding: 60px 0 60px 0;
   min-height: 600px;
-  background: rgb(40, 70, 102) url('../img/almonds.jpeg') no-repeat center center;
+  background: rgb(40, 70, 102) url('../img/northern-lights.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
 }
@@ -679,11 +679,17 @@ Hero
 }
 
 .hero .title {
-  font-size: 7em;
+  font-size: 8em;
 }
 
 .title span{
   color:#FFF251;
+}
+
+@media screen and (max-width:465px){
+  .hero .title {
+    font-size: 6em;
+  }
 }
 
 .hero {
