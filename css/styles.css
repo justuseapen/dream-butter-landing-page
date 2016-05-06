@@ -1,78 +1,29 @@
-/* LEAN OVERLAY */
-#lean_overlay {
-  position: fixed;
-  z-index:100;
-  top: 0px;
-  left: 0px;
-  height:100%;
-  width:100%;
-  background: #000;
-  display: none;
-}
-
-.emailModal {
-  display: none; 
-  opacity: 1;
-  z-index: 11000;
-  left: 50%;
-  top: 0px;
-}
-
-.emailModalHeader {
-  background-color: #A8AFB8;
-  padding: 18px 18px 14px 18px;
-  border-bottom: 1px solid #CCC;
-  text-align: center;
-  top:0px;
-}
-
-.emailModalHeader h2 {
-  font-weight: 900;
-}
-
-.signUpForm{
-  background-color: #D2D2D2;
-  color: black;
-  padding: 1em;
-}
-
-.signUpForm .asterisk {
-  color: red;
-}
-
-label {
-  font-weight: 100;
-  font-size: 1em;
-  margin: 10px 0px 0px 0;
-}
-
-#mc_embed_signup_scroll {
-  text-align: center;
-}
-
-.required {
+input.email {
+  color: white;
+  background-color: rgba(255,255,255,.25);
+  border: none;
+  border-radius: 7px;
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  outline: none;
+  padding: 10px 8px;
+  top: 2px;
   width: 100%;
-}
-
-#mc-embedded-subscribe {
-  display: inline-block;
-  margin: 10px 0px 0px 0;
-  padding: 20px 50px;
-  border-radius: 3px;
-  background-color: #fff;
-  color: #8B572A;
   font-size: 2em;
-  font-weight: bold;
-  width: 100%;
 }
 
-
-
-/* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
-
-/* ==========================================================================
-HTML5 display definitions
-========================================================================== */
+button.emailSubmit {
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #FFF35B;
+  border: none;
+  text-transform: uppercase;
+  font-size: 2em;
+}
 
 /*
 * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
@@ -130,7 +81,7 @@ html {
 */
 html, button, input, select, textarea {
     font-family: sans-serif;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: Futura-CondensedExtraBold, sans-serif;
 }
 html, body {
     overflow-x: hidden;
@@ -142,7 +93,7 @@ html, body {
 */
 body {
     margin: 0;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: Futura-CondensedExtraBold, sans-serif;
 }
 
 /*
@@ -662,7 +613,7 @@ Hero
   position: relative;
   padding: 60px 0 60px 0;
   min-height: 600px;
-  background: rgb(40, 70, 102) url('../img/northern-lights.jpg') no-repeat center center;
+  background: rgb(40, 70, 102) url('../img/sleep-after-dream-butter.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
 }
@@ -670,7 +621,6 @@ Hero
   font-weight: 900;
   font-size: 5em;
   text-align: center;
-  color: #9834F0;
   margin:0;
   text-shadow: 5px 5px 8px rgba(0,0,0,.8);
 }
@@ -684,11 +634,14 @@ Hero
 }
 
 .hero .title {
-  font-size: 8em;
+  font-family: Futura-CondensedExtraBold;
+  color: #B35EFF;
+  letter-spacing: 0px;
+  font-size: 8em;  
 }
 
 .title span{
-  color:#FFF251;
+  color: #FFF35B;
 }
 
 @media screen and (max-width:465px){
@@ -771,7 +724,7 @@ Features Slider
     position: relative;
     padding: 11% 100px 10% 100px;
     height: 400px;
-    background-color: #3F6184;
+    background-color: #B35EFF;
 }
 .features-slider ul {
     margin: 0;
@@ -833,7 +786,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px #4e9ba3;
+    border: solid 2px #B35EFF;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -841,7 +794,7 @@ Features List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #B35EFF;
 }
 
 .buyNow {

@@ -45,57 +45,21 @@
 		<![endif]-->
 		<!-- open/close -->
 		<header>
-			<section class="hero">
+			<section class="hero" id="hero">
 				<div class="texture-overlay"></div>
 				<div class="container">
 					<div class="row hero-content">
 						<div class="col-md-12">
-							<h1 class="animated fadeInDown">THE WORLD'S FIRST <span>SLEEP ENHANCING</span> NUT BUTTER</h1>
-							
-							<div class="col-md-2 col-lg-2"></div>
-							<div class="col-lg-8 col-md-8 col-sm-12">
-								<a href=".emailModal" class="buyNow use-btn animated fadeInUp">GET IT WHEN IT'S READY</a>
-							</div>
-							<div class="col-md-2 col-lg-2"></div>
-
-							<div class="emailModal col-lg-4">
-								<div class="emailModalHeader">
-									<h2>
-										GET DREAM BUTTER
-									</h2>
-								</div>
-								<div class="signUpForm">
-									<!-- Begin MailChimp Signup Form -->
-									<div id="mc_embed_signup">
-									<form action="//dreambutter.us7.list-manage.com/subscribe/post?u=6c8da477bf46ceee91eb20b72&amp;id=123783b078" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-									<div id="mc_embed_signup_scroll">
-									<div class="mc-field-group">
-										<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
-									</label>
-										<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-									</div>
-									<div class="mc-field-group">
-										<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-									</label>
-										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-									</div>
-										<div id="mce-responses" class="clear">
-											<div class="response" id="mce-error-response" style="display:none"></div>
-											<div class="response" id="mce-success-response" style="display:none"></div>
-										</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-									    <div style="position: absolute; left: -5000px;"><input type="text" name="b_6c8da477bf46ceee91eb20b72_123783b078" tabindex="-1" value=""></div>
-									    <div class="clear"><input type="submit" value="Dream Better" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="analytics.track('hit subscribe button');"></div>
-									    </div>
-									</form>
-									</div>
-
-									<!--End mc_embed_signup-->
-								</div>
-							</div>
-
 							<h1 class="title">
 								DREAM <span>BUTTER</span>
 							</h1>
+							<h1 class="animated fadeInDown">THE WORLD'S FIRST <span>SLEEP ENHANCING</span> NUT BUTTER</h1>
+							<div id="optIn">
+								<form action="//dreambutter.us7.list-manage.com/subscribe/post?u=6c8da477bf46ceee91eb20b72&amp;id=123783b078" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<input type="email" placeholder="your email goes here" class="email"></input>
+									<button class="emailSubmit" type="submit">Try it free!</button>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -111,7 +75,7 @@
 							</div>
 							<div class="feature-content">
 								<h1>Fall Asleep Faster</h1>
-								<p>Our recipe has the same macronutrient profile as breast milk (39% carbohydrates, 54% fat and 7% protein) so that you literally "sleep like a baby".</p>
+								<p>Our recipe has the same macronutrient profile as breast milk so that you literally "sleep like a baby".</p>
 							</div>
 						</div>
 						<div class="col-md-4 feature-2 wp2 delay-05s">
@@ -136,13 +100,15 @@
 						</div>
 					</div>
 						<div class="col-lg-12 col-md-12 col-sm-12">
-							<a href=".emailModal" id="buyNow2" class="buyNow use-btn animated fadeInUp">GET IT WHEN IT'S READY</a>
+							<a href="#hero" id="buyNow2" class="buyNow use-btn animated fadeInUp">TRY IT FREE!</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class=""></section>
+		<section class="">
+			
+		</section>
 
 		<div id="lean_overlay"></div>
 		<footer>
@@ -152,7 +118,7 @@
 						<h1 class="footer-logo">
 						<img class="logo" src="img/square-logo.svg">
 						</h1>
-						<p>© Dream Butter 2015 <a href="mailto:hello@dreambutter.com">Say Hello!</a></p>
+						<p>© Dream Butter 2016 <a href="mailto:hello@dreambutter.com">Say Hello!</a></p>
 					</div>
 					<div class="col-md-7">
 					</div>
@@ -170,7 +136,6 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/min/scripts-min.js"></script>
 		<script src="js/min/jquery.leanModal.min.js"></script>
-		<script src="js/main.js"></script>
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script type="text/javascript">
 			!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
